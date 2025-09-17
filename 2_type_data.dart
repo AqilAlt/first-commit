@@ -18,6 +18,7 @@ main() {
   final namamu = "Supri"; // ini immutable
   int umurku = 24; //mutable
   int umurmu = 100; //mutable
+  
 }
 
 num luaslingkaran(num radius) {
