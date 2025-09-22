@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 void main(List<String> args) {
   /**
    * operator perbandingan / relational
@@ -53,4 +55,10 @@ void main(List<String> args) {
   //K
   print('2 * $phi * $rusuk = ${2 * phi * rusuk}');
 
+  var number = 10;
+  var genap = number % 2 == 0;
+  print('Apakah $number adalah bilingan genap? $genap');
+  var ganjil = number % 2 != 0;
+  print('Apakah $number adalah bilingan genap? $ganjil');
+  
 }
