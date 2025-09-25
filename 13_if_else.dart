@@ -26,7 +26,7 @@ void main(List<String> args) {
     print('engga capek, gass lanjut dart dicoding');
   }
 
-  // 7, 8, 16
+  // 7 buka, 16 tutup, 24 jam saat ini
   if (jamSekarang < jamBuka) {
     // 24 < 7 // kurang dari jam
     print('Toko masih tutup');
