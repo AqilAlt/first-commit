@@ -12,7 +12,7 @@ class Hewan {
   double? weight;
 
   // constructor
-  // Hewan(this.name, this.color, this.weight); // Ini cara pertama
+  Hewan(this.name, this.color, this.weight); // Ini cara pertama
 
   // ===== Mendekalarasikan constructor ======
 
@@ -28,9 +28,9 @@ class Hewan {
   // Hewan.weight(this.weight);
 
   // Inisilizer list
-  Hewan(this.name, this.color) {
-    this.weight = 12.0;
-  }
+  // Hewan(this.name, this.color) {
+  //   this.weight = 12.0;
+  // }
 
   //methods
   void eat() {
