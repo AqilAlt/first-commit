@@ -27,6 +27,7 @@ void main(List<String> args) {
   cat.eat();
   cat.poop();
 
+// ==========CHALANGE 1===========
   /**
    * Petualangan karakter RPG
    * 
